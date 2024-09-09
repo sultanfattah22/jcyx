@@ -17,7 +17,7 @@ body{
     font-weight: 900;
 }
 .greetings > span{
-    animation: glow 2s ease-in-out infinite;
+    animation: glow 2.5s ease-in-out infinite;
 }
 @keyframes glow{
     0%, 100%{
@@ -39,21 +39,6 @@ body{
     animation-delay: .6s;
 }
 .greetings > span:nth-child(5){
-    animation-delay: .8s;
-}
-.greetings > span:nth-child(6){
-    animation-delay: .8s;
-}
-.greetings > span:nth-child(7){
-    animation-delay: .8s;
-}
-.greetings > span:nth-child(8){
-    animation-delay: .8s;
-}
-.greetings > span:nth-child(9){
-    animation-delay: .8s;
-}
-.greetings > span:nth-child(10){
     animation-delay: .8s;
 }
 
